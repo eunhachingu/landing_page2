@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BsList, BsXSquare, BsFacebook, BsTwitter, BsInstagram, BsDiscord, BsGoogle} from "react-icons/bs";
+import { BsList, BsXSquare, BsFacebook, BsTwitter, BsInstagram, BsDiscord, BsGoogle,} from "react-icons/bs";
 
 function Navbar() {
   const [list, setList] = useState(true);
