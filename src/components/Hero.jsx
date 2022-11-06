@@ -1,5 +1,5 @@
 import React from "react";
-import { BsFillArrowDownCircleFill} from "react-icons/bs"
+import { BsFillArrowDownCircleFill } from "react-icons/bs";
 
 function Hero() {
   return (
@@ -8,11 +8,11 @@ function Hero() {
         <article className="mx-auto">
           <div className="space-y-5">
             <h1 className="text-5xl max-w-lg font-bold">
-              Hello folks, we are Transcend Studio.
+              Hello folks, we are 8k Choi Studio.
             </h1>
             <p className="text-3xl max-w-lg">
-              We create stunning digital experiences that will help your
-              business stand out.
+              We produce breathtaking digital experiences to enhance your
+              company stand out.
             </p>
           </div>
         </article>
@@ -40,11 +40,10 @@ function Hero() {
           <p className="">Twitter</p>
           <p className="">Linked In</p>
         </div>
-          
 
         <div className="flex items-center space-x-5">
           <p className="uppercase">Scroll Down</p>
-          < BsFillArrowDownCircleFill className="text-5xl cursor-pointer"/>
+          <BsFillArrowDownCircleFill className="text-5xl cursor-pointer" />
         </div>
       </section>
     </div>
