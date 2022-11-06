@@ -3,7 +3,7 @@ import { RiNumber1 } from "react-icons/ri";
 
 function About() {
   return (
-    <div className="flex-col container mx-auto my-30 py-20 px-24 max-h-screen">
+    <div className="flex-col mx-auto justify-center p-32 w-3/4 h-screen">
       <section className="">
         <p className="uppercase text-slate-400 mb-5">Who We Are</p>
         <h1 className="text-5xl max-w-screen-lg font-bold mb-10">
@@ -18,8 +18,8 @@ function About() {
         </p>
       </section>
 
-      <section className="my-28">
-        <div className="grid grid-cols-2 gap-32">
+      <section className="my-20">
+        <div className="grid grid-cols-2 gap-20">
           <div className="flex items-center space-x-5 flex-wrap">
             <p className="bg-black text-white text-2xl w-10 h-10 flex justify-center items-center rounded-full">
               1
