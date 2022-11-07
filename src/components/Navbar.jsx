@@ -41,10 +41,11 @@ function Navbar() {
             !list
               ? "fixed right-0 top-0 p-10 h-full bg-slate-700 shadow-r"
               : "hidden"
+              
           }
         >
           <div
-            className="flex border-b border-gray-600 items-center pb-10 space-x-10 cursor-pointer"
+            className="flex border-b border-gray-600 items-center pb-10 space-x-10 cursor-pointer " 
             onClick={handleClick}
           >
             <h4 className="uppercase">Transcend Studio</h4>
