@@ -3,7 +3,7 @@ import { BsFillArrowDownCircleFill } from "react-icons/bs";
 
 function Hero() {
   return (
-    <div className="mt-40 text-white h-screen">
+    <div className="mt-40 text-white max-h-screen">
       <section className="flex">
         <article className="mx-auto">
           <div className="space-y-5">
@@ -33,7 +33,7 @@ function Hero() {
         </article>
       </section>
 
-      <section className="items-center flex justify-between translate-y-96 w-3/4 mx-auto">
+      <section className="items-center flex justify-between my-96 w-3/4 mx-auto">
         <div className="flex space-x-5">
           <p className="font-bold">Follow Us </p>
           <p className="">Facebok</p>
